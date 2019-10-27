@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+  background-color: #dbdbdb;
+}
+
+#app {
+  text-align: center;
+}
+
+h1 {
+  color: #688c7a;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+  color: black;
+}
+
+li {
+  font-size: 25px;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+}
+
+button {
+  font-size: 25px;
+  border-radius: 10%;
+  margin-left: 35px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 3px 2px 10px white;
+}
+
+.unavailable {
+  cursor: not-allowed;
+  box-shadow: 0px 0px 0px black;
+  background-color: #595959;
+  border-color: #595959;
+}
